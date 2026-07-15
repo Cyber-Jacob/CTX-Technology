@@ -33,6 +33,7 @@ jobs:
           cp index.html core.html shield.html signal.html forge.html essential.html _site/
           cp checkout.html confirmation.html _site/
           cp *.css *.js favicon.svg _site/
+          if [ -f CNAME ]; then cp CNAME _site/; fi
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
