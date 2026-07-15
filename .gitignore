@@ -6,3 +6,5 @@
 *.key
 node_modules/
 dist/
+*.md
+!README.md
