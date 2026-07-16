@@ -16,7 +16,7 @@ const products = {
   signal: {
     number: "02",
     title: "Signal",
-    copy: "Proactive monitoring, human support, email deliverability, and domain health.",
+    copy: "Proactive monitoring and reporting, human support, email and DNS health, and reputation visibility.",
     price: "From $149 / user / month",
     subject: "CTX Signal checkout request"
   },
