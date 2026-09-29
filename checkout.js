@@ -55,7 +55,7 @@ if (paymentLink) {
   payNow.innerHTML = "Continue to secure checkout <span aria-hidden=\"true\">↗</span>";
   paymentNote.textContent = "You will continue to Stripe's secure hosted checkout.";
 } else {
-  payNow.href = `mailto:hello@ctxtechnology.com?subject=${encodeURIComponent(product.subject)}`;
+  payNow.href = `mailto:hello@ctx-technology.com?subject=${encodeURIComponent(product.subject)}`;
   payNow.innerHTML = `Request ${product.title} checkout <span aria-hidden="true">↗</span>`;
   paymentNote.textContent = "Stripe checkout is being connected for this product. Request a checkout link now and CTX will follow up within one business day.";
 }
